@@ -1,0 +1,21 @@
+{
+  "name": "Flood Rescue System",
+  "short_name": "Flood Rescue",
+  "icons": [
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0066cc",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
