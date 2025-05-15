@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Flood Rescue System
 
-## Getting Started
+A comprehensive web-based platform designed to enhance flood disaster management and rescue operations. This system integrates real-time water level monitoring, rescue team coordination, and public emergency response capabilities.
 
-First, run the development server:
+## 🌊 Key Features
+
+- **Real-time Water Level Monitoring**
+
+  - AI-powered camera feeds for water level detection
+  - Automated alerts and notifications
+  - Historical water level data analysis
+
+- **Rescue Team Management**
+
+  - Team assignment and coordination
+  - Real-time location tracking
+  - Emergency response prioritization
+  - Resource allocation management
+
+- **Public Interface**
+
+  - Emergency SOS system
+  - Real-time flood updates
+  - Evacuation route guidance
+  - Relief camp information
+
+- **Administrative Dashboard**
+  - Centralized monitoring system
+  - Resource management
+  - Team deployment coordination
+  - Analytics and reporting
+
+## 🛠️ Technology Stack
+
+- **Frontend**
+
+  - Next.js 14 (React)
+  - TypeScript
+  - Tailwind CSS
+  - Leaflet Maps
+
+- **Backend**
+
+  - FastAPI (Python)
+  - OpenCV for image processing
+  - Machine Learning models for water detection
+
+- **Database & Authentication**
+  - Supabase (PostgreSQL)
+  - Row Level Security
+  - Real-time subscriptions
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+- Python 3.9+
+- Supabase account
+
+### Installation
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Flood-Rescue-System/flood-rescue-system.git
+cd flood-rescue-system
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install frontend dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Set up backend
 
-## Learn More
+```bash
+cd backend
+pip install -r requirements.txt
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Configure environment variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Create .env file in root directory
+cp .env.example .env
+# Add your Supabase and other API keys
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Run the development servers
 
-## Deploy on Vercel
+```bash
+# Frontend (in root directory)
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Backend (in backend directory)
+uvicorn main:app --reload
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to submit a Pull Request.
+
+## 👥 Team
+
+- Project Lead & Full Stack Developer
+- AI/ML Engineer
+- UI/UX Designer
+- Backend Developer
+
+## 📞 Contact
+
+For any queries regarding this project, please open an issue or contact us at floodrescuesystem@gmail.com
