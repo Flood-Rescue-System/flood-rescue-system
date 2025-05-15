@@ -108,7 +108,8 @@ Contributions are welcome! Feel free to submit a Pull Request.
 
 ## 👥 Team
 
-- Project Lead & Full Stack Developer
+- **S Sreeram** - Project Lead & Full Stack Developer
+  - LinkedIn: [Sreeram S](https://www.linkedin.com/in/sreeram-s/)
 - AI/ML Engineer
 - UI/UX Designer
 - Backend Developer
